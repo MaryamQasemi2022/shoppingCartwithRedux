@@ -1,0 +1,5 @@
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #58e1f3;
+  font-weight: bold;
+}
