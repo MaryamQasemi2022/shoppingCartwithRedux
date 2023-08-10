@@ -9,7 +9,7 @@ import SingleProduct from "./pages/SingleProduct";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/shoppingCartwithRedux">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
